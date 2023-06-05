@@ -1,0 +1,14 @@
+name: 'cont action'
+description: 'for training'
+author: 'meeeeee'
+inputs:
+  myInput:
+    description: 'greetings to use'
+    required: true
+    default: 'Awesome Guru'
+output:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
